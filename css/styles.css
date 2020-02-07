@@ -14,20 +14,6 @@ a, a:visited {
     text-decoration: none;
 }
 
-/* BEFORE 
-body {
-  background: var(--bg);
-  color: var(--main);
-  font-family: sans-serif;
-  font-size: 1.1em;
-  display: block;
-  text-align: left;
-  width: 800px;
-  margin: 0 auto;
-}
-*/
-
-/* AFTER */
 body {
   background: var(--bg);
   color: var(--main);
@@ -99,4 +85,12 @@ ul.nav li.nav a:hover:not(.active){
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.fixed
+{
+  position: fixed;
+  width:100%;
+  top: 0;
+  background-color: black;
 }
