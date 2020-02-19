@@ -4,33 +4,111 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="css/styles.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex,nofollow,noarchive">
 <title>CoupDesign Aircat</title>
 </head>
 
 <body>
+<<<<<<< HEAD
 <div class="main">
 <div class="fixed">
 <!-- *** NAVIGATION SECTION *** -->
+=======
+<div class="fixed">
+  <!-- NAVIGATION SECTION -->
+>>>>>>> 6b0a800ca268b2c76953c04e4a635829fc94f9f8
   <ul class="nav">
     <li class="nav"><a href="index.html" class="active">Home</a></li>
     <li class="nav"><a href="about.html">About</a></li>
     <li class="nav"><a href="contact.html">Contact</a></li>
     <li class="nav"><a href="testimonials.html">Testimonials</a></li>
   </ul>
+<<<<<<< HEAD
 <!-- *** END NAVIGATION *** -->
 </div>
 <img class="home-banner" src="images/coup-design-logo.png"></img>
 <h1>
+=======
+  <!-- END NAVIGATION -->
+</div>
+  <div class="main">
+
+<img class="home-banner" src="images/coup-design-logo.png"></img>
+<!-- BEGIN PAGE CONTENT -->
+<h2>
+>>>>>>> 6b0a800ca268b2c76953c04e4a635829fc94f9f8
 Presenting the AirCat
-</h1>
-<p>placeholder text</p>
-<img src="images/aircat-both-models.jpg"></img>
-<hr>
-<p id="footer">
-Copyright CoupDesign 2020
- | sales@coupdesign.com.au
+</h2>
+<div class="button-wrapper">
+  <a class="button cta-button" href="#">What is the AirCat?</a>
+</div>
+<p>
+The AirCat is a revolutionary way to improve the air quality in your
+greenhouse or other indoor growing areas. It utilises a special coating
+on a purpose made filter element to reduce organic pollutants in the air.
+This coating will not wear out but will eventually wear off. The life
+span will vary depending on air quality and other factors. Tests have
+shown it continuing to be effective well over 5 years.
+</p>
+<!--<p>
+<br><strong>NB: It comes with a 12 month warranty.</strong>
+</p>
+-->
+<center>
+<img class="mySlides" src="images/aircat-twin.jpg">
+<img class="mySlides" src="images/aircat-top-twin.jpg">
+<img class="mySlides" src="images/aircat-filter-twin.jpg">
+<button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+</center>
+<!--  <h2>
+    The process kills organics such as:
+  </h2>
+<p>
+  &#x25CF; Airborne mould spores<br>
+  &#x25CF; Bacteria<br>
+  &#x25CF; Viruses<br>
+  &#x25CF; Small flying pests e.g white flies<br>
+</p>
+<p>
+Good air circulation will help the air get to the AirCat making it more effective.
+To assist in controlling pests such as white flies disturbing the plants will
+make them fly and they then fly towards the yellow attractant, where they’re then
+drawn into the AirCat and killed.
+</p>-->
+<p>
+
 </p>
 </div>
+<p>
+
+</p>
+<!-- END PAGE CONTENT -->
+<hr>
+<p class="footer">
+Copyright CoupDesign 2020
+ | enquiries@aircat.com.au
+</p>
+</div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
 </body>
 
 </html>
