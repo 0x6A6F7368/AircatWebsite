@@ -17,11 +17,7 @@ a, a:visited {
 body {
   background: var(--bg);
   color: var(--main);
-<<<<<<< HEAD
-  font-family: sans-serif;
-=======
   font-family: Verdana, Geneva, sans-serif;
->>>>>>> 6b0a800ca268b2c76953c04e4a635829fc94f9f8
   font-size: 1.1em;
 }
 
@@ -92,42 +88,9 @@ ul.nav li.nav a:hover:not(.active){
   margin: 0 auto;
 }
 
-<<<<<<< HEAD
-.fixed
-{
-  position: fixed;
-  width:100%;
-  top: 0;
-  background-color: black;
-=======
 .fixed {
   /*position: fixed;*/
   width: 100%;
   top:0;
   left:0;
-}
-
-.button-wrapper {
-  display: block;
-  text-align: center;
-}
-
-.button {
-  border: none;
-  border-radius: 20px; /*2em for more rounded */
-  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-  display: inline-block;
-  padding: 1em 2em;
-  width: auto;
-  font-size: 1.1em;
-}
-
-.cta-button {
-  background-color: #456b9a;
-  color: white !important;
-}
-
-.cta-button:hover {
-  background-color: grey;
->>>>>>> 6b0a800ca268b2c76953c04e4a635829fc94f9f8
 }
