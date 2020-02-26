@@ -10,8 +10,8 @@
 
 /* Format hyperlinks */
 a, a:visited {
-    color: var(--accent);
-    text-decoration: none;
+  color: var(--accent);
+  text-decoration: none;
 }
 
 body {
@@ -34,7 +34,8 @@ img.home-banner {
 }
 
 .footer {
-font-size:small;
+  font-size:small;
+  text-align: center;
 }
 
 ul.nav {
