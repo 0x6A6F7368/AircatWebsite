@@ -38,6 +38,17 @@ img.home-banner {
   text-align: center;
 }
 
+.socials {
+  text-align: center;
+  min-width: 330px;
+}
+
+.testimonials {
+  font-size:large;
+  text-align: center;
+  font-style: italic;
+}
+
 ul.nav {
   list-style-type: none;
   margin: 0;
